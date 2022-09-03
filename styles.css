@@ -37,7 +37,9 @@ body {
 .notes .main {
     height: 100%;
     width: 100%;
-    display: none;
+    color: black;
+    background-color: white;
+    overflow: hidden;
 }
 
 .notes textarea {
@@ -46,4 +48,24 @@ body {
     border: none;
     outline: none;
     padding: 10px;
+    background: rgb(236, 215, 215);
+}
+
+.notes .hidden {
+    display: none;
+}
+
+.add-note {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background: #9ec862;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    top: 0;
+    right: 0;
+    position: fixed;
 }
