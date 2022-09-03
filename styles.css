@@ -2,3 +2,48 @@
     box-sizing: border-box;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body {
+    background-color: #7bdaf3;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.notes {
+    background: white;
+    height: 400px;
+    width: 400px;
+}
+
+.notes .tools {
+    padding: 1rem;
+    background-color: #9ec862;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.notes .tools button {
+    margin-right: 0.5rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.notes .main {
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.notes textarea {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
