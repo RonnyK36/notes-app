@@ -7,20 +7,18 @@ body {
     background-color: #7bdaf3;
     margin: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     height: 100vh;
 }
 
 .notes {
-    background: white;
     height: 400px;
     width: 400px;
+    margin: 20px;
 }
 
 .notes .tools {
-    padding: 1rem;
+    /* padding: 1rem; */
     background-color: #9ec862;
     display: flex;
     justify-content: flex-end;
@@ -38,8 +36,10 @@ body {
     height: 100%;
     width: 100%;
     color: black;
-    background-color: white;
+    background: rgb(236, 215, 215);
     overflow: hidden;
+    padding: 10px;
+    text-align: center;
 }
 
 .notes textarea {
@@ -47,8 +47,8 @@ body {
     width: 100%;
     border: none;
     outline: none;
-    padding: 10px;
-    background: rgb(236, 215, 215);
+    background-color: white;
+    /* padding: 10px; */
 }
 
 .notes .hidden {
@@ -68,4 +68,5 @@ body {
     top: 0;
     right: 0;
     position: fixed;
+    cursor: pointer;
 }
